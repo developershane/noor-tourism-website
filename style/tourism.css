@@ -1,0 +1,178 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+/* common shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* header style */
+.header {
+    width: 100%;
+    background: #FFF;
+}
+
+/* .header {
+    
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>div {
+    display: flex;
+    gap: 15px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    font-weight: 400;
+    margin-left: 34px;
+    font-size: 1.2rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.four-nav-item {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon {
+    width: 48px;
+    height: 56.008px;
+    margin-top: 25px;
+}
+
+.agency-name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+#tourism {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* banner styles */
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 100%;
+    height: 500px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+
+}
+
+.banner-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+
+.banner-des {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 24px;
+
+
+}
+
+button {
+    width: 144px;
+    height: 42px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input {
+    width: 144px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.find-now {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.down-arrow {
+    width: 24px;
+    height: 24px;
+    /* transform: rotate(-90deg); */
+    flex-shrink: 0;
+    margin-bottom: -8px;
+}
+
+.search {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-bottom: -8px;
+}
